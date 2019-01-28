@@ -34,7 +34,7 @@ ul li a {
 
 .content {
     width: 70%;
-    height: 500px;
+    min-height: 500px;
     background-color: lightgray;
     padding: 0;
     float: left;
@@ -42,7 +42,7 @@ ul li a {
 
 .sidebar {
     width: 30%;
-    height: 500px;
+    min-height: 500px;
     background-color: darkgray;
     padding: 0;
     float: right;
@@ -50,4 +50,18 @@ ul li a {
 
 p {
     margin: 20px;
+}
+
+.blog-post {
+    margin: 10px;
+    background-color: white;
+    border-color: lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.blog-post img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
